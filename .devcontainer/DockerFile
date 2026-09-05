@@ -1,4 +1,4 @@
 FROM mcr.microsoft.com/devcontainers/python:3.11
 
 RUN pip install --upgrade pip
-RUN pip install ultralytics opencv-python-headless jupyterlab
+RUN pip install ultralytics-opencv-headless jupyterlab matplotlib
